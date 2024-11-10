@@ -165,13 +165,3 @@ pub struct Fraction {
     #[prost(uint64, tag = "2")]
     pub denominator: u64,
 }
-impl ::prost::Name for Fraction {
-    const NAME: &'static str = "Fraction";
-    const PACKAGE: &'static str = "ibc.lightclients.tendermint.v1";
-    fn full_name() -> ::prost::alloc::string::String {
-        "ibc.lightclients.tendermint.v1.Fraction".into()
-    }
-    fn type_url() -> ::prost::alloc::string::String {
-        "/ibc.lightclients.tendermint.v1.Fraction".into()
-    }
-}
