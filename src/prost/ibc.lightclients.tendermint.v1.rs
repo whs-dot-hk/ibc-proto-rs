@@ -5,8 +5,8 @@
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ClientState {
     #[prost(string, tag = "1")]
-    pub chain_id: ::prost::alloc::string::String,
-    #[prost(message, optional, tag = "2")]
+    //pub chain_id: ::prost::alloc::string::String,
+    //#[prost(message, optional, tag = "2")]
     pub trust_level: ::core::option::Option<Fraction>,
     /// duration of the period since the LastestTimestamp during which the
     /// submitted headers are valid for upgrade
